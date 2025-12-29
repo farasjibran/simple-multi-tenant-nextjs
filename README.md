@@ -17,7 +17,7 @@ A production-ready example of a multi-tenant application built with Next.js 15, 
 
 - [Next.js 15](https://nextjs.org/) with App Router
 - [React 19](https://react.dev/)
-- [Upstash Redis](https://upstash.com/) for data storage
+- [ioredis](https://github.com/redis/ioredis) for data storage
 - [Tailwind 4](https://tailwindcss.com/) for styling
 - [shadcn/ui](https://ui.shadcn.com/) for the design system
 
@@ -27,7 +27,6 @@ A production-ready example of a multi-tenant application built with Next.js 15, 
 
 - Node.js 18.17.0 or later
 - pnpm (recommended) or npm/yarn
-- Upstash Redis account (for production)
 
 ### Installation
 
@@ -48,14 +47,15 @@ A production-ready example of a multi-tenant application built with Next.js 15, 
    Create a `.env.local` file in the root directory with:
 
    ```
-   KV_REST_API_URL=your_redis_url
-   KV_REST_API_TOKEN=your_redis_token
+   REDIS_HOST=your_redis_host
+   REDIS_PORT=your_redis_port
+   REDIS_PASSWORD=your_redis_password
    ```
 
 4. Start the development server:
 
    ```bash
-   pnpm dev
+   bun dev
    ```
 
 5. Access the application:
