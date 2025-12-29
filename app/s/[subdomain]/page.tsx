@@ -36,8 +36,6 @@ export default async function SubdomainPage({
     notFound();
   }
 
-  console.log(subdomainData);
-
   return (
     <div className="flex min-h-screen flex-col bg-gradient-to-b from-blue-50 to-white p-4">
       <div className="absolute top-4 right-4">
