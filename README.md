@@ -33,7 +33,7 @@ A production-ready example of a multi-tenant application built with Next.js 15, 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/vercel/platforms.git
+   git clone https://github.com/farasjibran/simple-multi-tenant-nextjs
    cd platforms
    ```
 
