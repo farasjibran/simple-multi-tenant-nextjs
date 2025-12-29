@@ -26,7 +26,7 @@ A production-ready example of a multi-tenant application built with Next.js 15, 
 ### Prerequisites
 
 - Node.js 18.17.0 or later
-- pnpm (recommended) or npm/yarn
+- bun (recommended) or yarn
 
 ### Installation
 
@@ -40,7 +40,7 @@ A production-ready example of a multi-tenant application built with Next.js 15, 
 2. Install dependencies:
 
    ```bash
-   pnpm install
+   bun install
    ```
 
 3. Set up environment variables:
